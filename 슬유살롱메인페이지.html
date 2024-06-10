@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>슬유살롱</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/슬유살롱메인페이지.css">
+</head>
+<body>
+    <div class="wrap">
+        <header class="header">
+            <div class="inner">
+                <h1>
+                    <a href="#"><img src="img/logo.svg" alt="로고"></a>
+                </h1>
+
+                <nav class="pc pc_nav">
+                    <ul>
+                        <li><a href="#">슬유살롱이란?</a></li>
+                        <li><a href="#">프로그램</a></li>
+                        <li><a href="#">소식</a></li>
+                        <li><a href="#">요리산책</a></li>
+                        <li><a href="#">소통</a></li>
+                    </ul>
+                </nav><!-- pc_nav end -->
+                <ul class="pc util">
+                    <li><a href="#">유성구청</a></li>
+                    <li><a href="#"><img src="img/menu.png" alt="아이콘"></a></li>
+                </ul><!-- pc util end -->
+
+                <nav class="mobile mobile_nav">
+                    <ul class="util">
+                        <li><a href="#"><img src="img/menu.png" alt="아이콘"></a></li>
+                    </ul>
+                </nav>
+            </div><!-- inner end -->
+        </header><!-- header end -->
+
+
+        <main class="main">
+            <section class="main01">
+                <div class="inner">
+                    <div class="main_text01">
+                        <h2>슬기로운 유성</h2>
+                        <img src="img/salon.svg" alt="salon">
+                    </div><!-- main_text01 end -->
+                    <div class="main_text02">
+                        <a href="#">
+                            <h4>슬유살롱 소개</h4>
+                        </a>
+                        <a href="#"><img src="img/icon4.svg" alt="icon"></a>
+                    </div><!-- main_text02 end -->
+                </div><!-- inner end -->
+
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <figure>
+                            <img src="img/main1.png" alt="main img">
+                        </figure>
+                      </div>
+                      <div class="swiper-slide">
+                        <figure>
+                            <img src="img/main2.png" alt="main img">
+                        </figure>
+                      </div>
+                      <div class="swiper-slide">
+                        <figure>
+                            <img src="img/main3.jpg" alt="main img">
+                        </figure>
+                      </div>
+                      <div class="swiper-slide">
+                        <figure>
+                            <img src="img/main4.jpg" alt="main img">
+                        </figure>
+                      </div>
+                      <div class="swiper-slide">
+                        <figure>
+                            <img src="img/main5.jpg" alt="main img">
+                        </figure>
+                      </div>
+                      <div class="swiper-slide">
+                        <figure>
+                            <img src="img/main6.jpg" alt="main img">
+                        </figure>
+                      </div>
+                      <div class="swiper-slide">
+                        <figure>
+                            <img src="img/main7.jpg" alt="main img">
+                        </figure>
+                      </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section><!-- main01 end -->
+            <!-- Swiper JS -->
+            <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+            <!-- Initialize Swiper -->
+            <script>
+                var swiper = new Swiper(".mySwiper", {
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+                slidesPerView: 3,
+                spaceBetween: 30,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                breakpoints: {
+                390: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+                },
+                960: {
+                slidesPerView: 1,
+                spaceBetween: 40,
+                },
+                1024: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+                },
+                1440: {
+                slidesPerView: 2.5,
+                spaceBetween: 50,
+                },
+            },
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            loop: true,
+
+            autoplay: true,
+
+            slidesPerView: 'auto',
+
+            spaceBetween: 10,
+
+            centeredSlides: true
+                });
+            </script>
+
+            <section class="section02" data-aos="fade-up">
+                <div class="inner">
+                        <div class="right_item">
+                            <div class="title01">
+                                <div>
+                                    <h2>프로그램 안내</h2>
+                                    <p>유성구 슬유살롱에서 특별한 프로그램을 만나보세요.</p>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="img/morebtn.svg" alt="아이콘"></a>
+                                </div>
+                            </div><!-- title01 end -->
+                            <div class="list">
+                                <a href="#">
+                                    <div class="item01">
+                                        <div class="right">
+                                            <h3>진행</h3>
+                                        </div><!-- right end -->
+                                        <div class="left">
+                                            <h4>2024 1인가구 마음건강 챙김사업</h4>
+                                            <div class="day">
+                                                <div>
+                                                    <img src="img/icon2.svg" alt="아이콘">
+                                                    <p>2024-04-27 13:00 ~ 2024-10-26 18:00</p>
+                                                </div>
+                                                <div>
+                                                    <img src="img/icon3.svg" alt="아이콘">
+                                                    <p>유성구</p>
+                                                </div>
+                                            </div><!-- day end -->
+                                        </div><!-- left end -->
+                                    </div><!-- item01 end -->
+                                    <div class="item01">
+                                        <div class="right">
+                                            <h3>진행</h3>
+                                        </div><!-- right end -->
+                                        <div class="left">
+                                            <h4>2024년 1인가구 소셜다이닝(함께하는 식사)</h4>
+                                            <div class="day">
+                                                <div>
+                                                    <img src="img/icon2.svg" alt="아이콘">
+                                                    <p>2024-04-13 10:30 ~ 2024-11-23 15:00</p>
+                                                </div>
+                                                <div>
+                                                    <img src="img/icon3.svg" alt="아이콘">
+                                                    <p>유성구, 육지해녀협동조합</p>
+                                                </div>
+                                            </div><!-- day end -->
+                                        </div><!-- left end -->
+                                    </div><!-- item01 end -->
+                                    <div class="item01">
+                                        <div class="right">
+                                            <h3>마감</h3>
+                                        </div><!-- right end -->
+                                        <div class="left">
+                                            <h4>2023년 유성구 1인가구 안심홈세트 지원사업</h4>
+                                            <div class="day">
+                                                <div>
+                                                    <img src="img/icon2.svg" alt="아이콘">
+                                                    <p>2023-11-08 10:00 ~ 2023-11-27 18:00</p>
+                                                </div>
+                                                <div>
+                                                    <img src="img/icon3.svg" alt="아이콘">
+                                                    <p>유성구 미래전략과</p>
+                                                </div>
+                                            </div><!-- day end -->
+                                        </div><!-- left end -->
+                                    </div><!-- item01 end -->
+                                </a>
+                            </div><!-- list end -->
+                        </div><!-- right_item end -->
+                        <div class="left_item">
+                            <figure>
+                                <img src="img/img1.jpg" alt="이미지">
+                                <img src="img/img2.jpg" alt="이미지">
+                                <img src="img/img3.png" alt="이미지">
+                            </figure>
+                        </div><!-- left_item end -->
+                </div><!-- inner end -->
+            </section><!-- section02 end -->
+
+            <section class="section03" data-aos="fade-up">
+                <div class="inner">
+                    <h2>간편하고, 건강하게</h2>
+                    <p>1인 가구니깐 간편하고, 더욱 건강하게 먹자! <br />
+                        다양한 레시피를 공유합니다!
+                    </p>
+                    <div class="item02">
+                        <div class="right_item01">
+                            <div class="swiper right01">
+                                <div class="swiper-wrapper">
+                                  <div class="swiper-slide">
+                                    <figure>
+                                        <img src="img/back.svg" alt="배경">
+                                    </figure>
+                                    <div class="text">
+                                        <p>요리산책</p>
+                                        <h3>깔끔한 일식 레시피</h3>
+                                    </div><!-- text end -->
+                                    <div class="image">
+                                        <figure>
+                                            <img src="img/일식.png" alt="일식">
+                                        </figure>
+                                    </div><!-- image end -->
+                                  </div><!-- swiper-slide end -->
+
+                                  <div class="swiper-slide">
+                                    <figure>
+                                        <img src="img/back.svg" alt="배경">
+                                    </figure>
+                                    <div class="text">
+                                        <p>요리산책</p>
+                                        <h3>매력적인 동남아식 <br />
+                                            레시피</h3>
+                                    </div><!-- text end -->
+                                    <div class="image">
+                                        <figure>
+                                            <img src="img/동남아.png" alt="동남아식">
+                                        </figure>
+                                    </div><!-- image end -->
+                                  </div><!-- swiper-slide end -->
+
+                                  <div class="swiper-slide">
+                                    <figure>
+                                        <img src="img/back.svg" alt="배경">
+                                    </figure>
+                                    <div class="text">
+                                        <p>요리산책</p>
+                                        <h3>든든한 한식 레시피</h3>
+                                    </div><!-- text end -->
+                                    <div class="image">
+                                        <figure>
+                                            <img src="img/한식.png" alt="한식">
+                                        </figure>
+                                    </div><!-- image end -->
+                                  </div><!-- swiper-slide end -->
+
+                                  <div class="swiper-slide">
+                                    <figure>
+                                        <img src="img/back.svg" alt="배경">
+                                    </figure>
+                                    <div class="text">
+                                        <p>요리산책</p>
+                                        <h3>푸짐한 중식 레시피</h3>
+                                    </div><!-- text end -->
+                                    <div class="image">
+                                        <figure>
+                                            <img src="img/중식.png" alt="중식">
+                                        </figure>
+                                    </div><!-- image end -->
+                                  </div><!-- swiper-slide end -->
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                            </div>
+                        </div><!-- right_item01 end -->
+                          <!-- Swiper JS -->
+                        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+                        <!-- Initialize Swiper -->
+                        <script>
+                            var swiper = new Swiper(".right01", {
+                                navigation: {
+                            nextEl: ".swiper-button-next",
+                            prevEl: ".swiper-button-prev",
+                        },
+                        autoplay: {
+                        delay: 2500,
+                        disableOnInteraction: false,
+                    },
+                            });
+                        </script>
+
+                        <div class="left_item01">
+                            <div class="left01">
+                                <figure>
+                                    <img src="img/img4.png" alt="음식">
+                                </figure>
+                                <div class="left_text">
+                                    <p>내가만든 요리는 <br />
+                                        누룩간장
+                                    </p>
+                                </div><!-- left_text end -->
+                            </div><!-- left01 end -->
+
+                            <div class="left01">
+                                <figure>
+                                    <img src="img/img5.png" alt="음식">
+                                </figure>
+                                <div class="left_text">
+                                    <p>내가만든 요리는 <br />
+                                        전통 고추장</p>
+                                </div><!-- left_text end -->
+                            </div><!-- left01 end -->
+
+                            <div class="left01">
+                                <figure>
+                                    <img src="img/img6.jpg" alt="음식">
+                                </figure>
+                                <div class="left_text">
+                                    <p>내가만든 요리는 <br />
+                                        된장찌개</p>
+                                </div><!-- left_text end -->
+                            </div><!-- left01 end -->
+
+                            <div class="left01">
+                                <figure>
+                                    <img src="img/img7.jpg" alt="음식">
+                                </figure>
+                                <div class="left_text">
+                                    <p>내가만든 요리는 <br />
+                                        샌드위치</p>
+                                </div><!-- left_text end -->
+                            </div><!-- left01 end -->
+                        </div><!-- left_item01 end -->
+                    </div><!-- item02 end -->
+                </div><!-- inner end -->
+            </section><!-- section03 end -->
+
+            <section class="section04" data-aos="fade-up">
+                <div class="inner">
+                    <div class="title_text">
+                        <div class="title02">
+                            <h2>슬유살롱은 지금</h2>
+                        </div><!-- title02 end -->
+                        <div class="btn">
+                            <div class="btn_flex">
+                                <div class="img01">
+                                    <img src="img/icon5.svg" alt="icon">
+                                </div><!-- img01 end -->
+                                <div class="btn_text">
+                                    <p>전체보기</p>
+                                </div><!-- btn_text end -->
+                            </div><!-- btn_flex end -->
+
+                            <div class="btn_flex">
+                                <div class="img01">
+                                    <img src="img/icon6.svg" alt="icon">
+                                </div><!-- img01 end -->
+                                <div class="btn_text">
+                                    <p>공지사항</p>
+                                </div><!-- btn_text end -->
+                            </div><!-- btn_flex end -->
+
+                            <div class="btn_flex">
+                                <div class="img01">
+                                    <img src="img/icon6.svg" alt="icon">
+                                </div><!-- img01 end -->
+                                <div class="btn_text">
+                                    <p>보도자료</p>
+                                </div><!-- btn_text end -->
+                            </div><!-- btn_flex end -->
+                        </div><!-- btn end -->
+                    </div><!-- title_text end -->
+
+                    <div class="list01">
+                        <a href="#">
+                            <div class="list_item">
+                                <div class="item_text">
+                                    <h4>보도자료</h4>
+                                    <p>(2024.4.8) 대전 유성구, 2024년 마음건강챙김사업 추진</p>
+                                </div><!-- item_text end -->
+                                <span>2024.04.30</span>
+                            </div><!-- list_item end -->
+                            <div class="list_item">
+                                <div class="item_text">
+                                    <h4>보도자료</h4>
+                                    <p>(2024.3.18) 대전유성구, 소셜다이닝 "함께하는 식사" 추진</p>
+                                </div><!-- item_text end -->
+                                <span>2024.04.30</span>
+                            </div><!-- list_item end -->
+                            <div class="list_item">
+                                <div class="item_text">
+                                    <h4>공지사항</h4>
+                                    <p>1인가구 '싱글벙글 리포트'(제19호)</p>
+                                </div><!-- item_text end -->
+                                <span>2024.04.18</span>
+                            </div><!-- list_item end -->
+                        </a>
+                    </div><!-- list01 end -->
+
+                    <div class="sns">
+                        <div class="sns01">
+                            <a href="#"><img src="img/icon3.png" alt="icon"></a>
+                        </div><!-- sns01 end -->
+                        <div class="sns01">
+                            <a href="#"><img src="img/face.svg" alt="icon"></a>
+                        </div><!-- sns01 end -->
+                        <div class="sns01">
+                            <a href="#"><img src="img/twitter.svg" alt="icon"></a>
+                        </div><!-- sns01 end -->
+                        <div class="sns01">
+                            <a href="#"><img src="img/instar.svg" alt="icon"></a>
+                        </div><!-- sns01 end -->
+                        <div class="sns01">
+                            <a href="#"><img src="img/you.svg" alt="icon"></a>
+                        </div><!-- sns01 end -->
+                    </div><!-- sns end -->
+                </div><!-- inner end -->
+            </section><!-- section04 end -->
+        </main><!-- main end -->
+
+        <footer>
+            <div class="inner">
+                    <div class="image01">
+                        <img src="img/logo2.svg" alt="logo">
+                    </div>
+                <div class="footer_text01">
+                    <p>개인정보처리방침</p>
+                    <p>저작권정책</p>
+                    <p>사이트맵</p>
+                </div><!-- footer_text01 end -->
+                <div class="footer_text02">
+                    <p>(우 34139) 대전광역시 유성구 대학로 211</p>
+                    <p>TEL : 유성구청 미래전략과 042-611-6014</p>
+                    <p>Copyright 2023. DAEJEON YUSEONG-GU ALL RIGHTS RESERVED.</p>
+                </div><!-- footer_text02 end -->
+            </div><!-- inner end -->
+        </footer>
+    </div><!-- wrap end -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>

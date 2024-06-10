@@ -1,0 +1,11 @@
+@font-face {
+    font-family: '';
+    src: url('Jalnan2-Regular.eot');
+    src: url('Jalnan2-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Jalnan2-Regular.woff2') format('woff2'),
+        url('Jalnan2-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
